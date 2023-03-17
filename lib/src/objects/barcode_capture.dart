@@ -1,6 +1,7 @@
 import 'dart:typed_data';
 
-import 'package:mobile_scanner/src/objects/barcode.dart';
+import '../../mobile_scanner.dart';
+
 
 /// The return object after a frame is scanned.
 ///
@@ -8,6 +9,7 @@ import 'package:mobile_scanner/src/objects/barcode.dart';
 /// barcodes.
 /// [image] If enabled, an image of the scanned frame.
 class BarcodeCapture {
+  final dynamic raw;
   final List<Barcode> barcodes;
 
   final Uint8List? image;
@@ -16,7 +18,8 @@ class BarcodeCapture {
 
   final double? height;
 
-  BarcodeCapture({
+  BarcodeCapture( {
+    this.raw,
     required this.barcodes,
     this.image,
     this.width,

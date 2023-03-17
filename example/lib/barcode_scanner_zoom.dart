@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:mobile_scanner/mobile_scanner.dart';
+import 'package:mobile_scanner_pro/mobile_scanner.dart';
 
 class BarcodeScannerWithZoom extends StatefulWidget {
   const BarcodeScannerWithZoom({Key? key}) : super(key: key);

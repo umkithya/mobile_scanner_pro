@@ -1,4 +1,6 @@
-import 'package:mobile_scanner/src/enums/mobile_scanner_error_code.dart';
+
+
+import '../mobile_scanner.dart';
 
 /// This class represents an exception thrown by the mobile scanner.
 class MobileScannerException implements Exception {

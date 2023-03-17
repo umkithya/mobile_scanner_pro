@@ -1,7 +1,8 @@
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
-import 'package:mobile_scanner/mobile_scanner.dart';
+
+import '../mobile_scanner.dart';
 
 Size toSize(Map data) {
   final width = data['width'] as double;

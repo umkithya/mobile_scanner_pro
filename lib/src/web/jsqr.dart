@@ -6,9 +6,9 @@ import 'dart:html';
 import 'dart:typed_data';
 
 import 'package:js/js.dart';
-import 'package:mobile_scanner/src/enums/camera_facing.dart';
-import 'package:mobile_scanner/src/objects/barcode.dart';
-import 'package:mobile_scanner/src/web/base.dart';
+import 'package:mobile_scanner_pro/src/enums/camera_facing.dart';
+import 'package:mobile_scanner_pro/src/objects/barcode.dart';
+import 'package:mobile_scanner_pro/src/web/base.dart';
 
 @JS('jsQR')
 external Code? jsQR(dynamic data, int? width, int? height);

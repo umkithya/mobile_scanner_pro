@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:html' as html;
 import 'dart:js' show context, JsObject;
 
-import 'package:mobile_scanner/src/web/base.dart';
+import 'package:mobile_scanner_pro/src/web/base.dart';
 
 Future<void> loadScript(JsLibrary library) async {
   dynamic amd;
